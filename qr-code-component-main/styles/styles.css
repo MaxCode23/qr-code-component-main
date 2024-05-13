@@ -1,0 +1,41 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  /* Card Styles */
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* QR Code Styles */
+  .qr-code {
+    width: 100%;
+    height: auto; /* Allows the height to adjust automatically based on the width */
+    margin: 20px auto;
+    border-radius: 10px; /* Rounded edges */
+  }
+  
+  /* Attribution Styles */
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  
